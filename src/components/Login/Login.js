@@ -35,6 +35,12 @@ const collegeNameReducer = (state, action) => {
 };
 
 const Login = (props) => {
+  // const [enteredEmail, setEnteredEmail] = useState('');
+  // const [emailIsValid, setEmailIsValid] = useState();
+  // const [enteredPassword, setEnteredPassword] = useState('');
+  // const [passwordIsValid, setPasswordIsValid] = useState();
+  // const [enteredCollegeName, setEnteredCollegeName] = useState('');
+  // const [collegeNameIsValid, setCollegeNameIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
   const [emailState, dispatchEmail] = useReducer(emailReducer, {
